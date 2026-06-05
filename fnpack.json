@@ -1,34 +1,28 @@
 {
-  "source_version": "1.1.1",
-  "source_name": "FnDepot",
-  "source_desc": "飞牛 NAS 第三方应用源",
-  "source_icon_url": "",
-  "source_url": "https://github.com/shaoweiluo17-lang/FnDepot",
-  "apps": {
-    "musicfree": {
-      "display_name": "MusicFree",
-      "desc": "集媒体库管理、元数据刮削与插件化扩展于一体的音乐服务器，All-in-One 无损音乐解决方案。\n- 在线搜索与下载：通过插件订阅注册表，便捷获取无损曲目\n- 媒体库管理：扫描入库、去重、在线播放；支持 WebDAV 媒体源\n- 元数据刮削：单曲/专辑/艺术家信息补全，封面与歌词多源匹配\n- 歌单同步：支持链接导入与定时同步各平台歌单\n- OpenSubsonic 兼容：支持音流、Supersonic、Symfonium 等客户端接入\n- 插件化扩展：搜索、刮削、同步能力均通过插件实现，可按需组合",
-      "labels": "音乐,媒体服务器,播放器,刮削",
-      "platform": [
-        "x86",
-        "arm"
-      ],
-      "version": "1.1.9",
-      "distributor": "ansgoo",
-      "distributor_url": "https://github.com/ansgoo/music-free-site",
-      "bug_report_url": "https://github.com/ansgoo/music-free-site/issues",
-      "arch_diff": {
-        "x86": {
-          "download_url": "https://github.com/AnsGoo/music-free-site/releases/download/V1.1.9/musicfree-amd64.fpk"
-        },
-        "arm": {
-          "download_url": "https://github.com/AnsGoo/music-free-site/releases/download/V1.1.9/musicfree-arm64.fpk"
-        }
+  "musicfree": {
+    "display_name": "MusicFree",
+    "desc": "集媒体库管理、元数据刮削与插件化扩展于一体的音乐服务器，All-in-One 无损音乐解决方案。\n- 在线搜索与下载：通过插件订阅注册表，便捷获取无损曲目\n- 媒体库管理：扫描入库、去重、在线播放；支持 WebDAV 媒体源\n- 元数据刮削：单曲/专辑/艺术家信息补全，封面与歌词多源匹配\n- 歌单同步：支持链接导入与定时同步各平台歌单\n- OpenSubsonic 兼容：支持音流、Supersonic、Symfonium 等客户端接入\n- 插件化扩展：搜索、刮削、同步能力均通过插件实现，可按需组合",
+    "labels": "音乐,媒体服务器,播放器,刮削",
+    "platform": [
+      "x86",
+      "arm"
+    ],
+    "version": "1.1.9",
+    "distributor": "ansgoo",
+    "distributor_url": "https://github.com/ansgoo/music-free-site",
+    "bug_report_url": "https://github.com/ansgoo/music-free-site/issues",
+    "arch_diff": {
+      "x86": {
+        "download_url": "https://github.com/AnsGoo/music-free-site/releases/download/V1.1.9/musicfree-amd64.fpk",
+        "size": "13.2"
       },
-      "install_type": "系统空间",
-      "size": "150",
-      "changelog": "稳定版 V1.1.9",
-      "isdocker": "true"
-    }
+      "arm": {
+        "download_url": "https://github.com/AnsGoo/music-free-site/releases/download/V1.1.9/musicfree-arm64.fpk",
+        "size": "12.1"
+      }
+    },
+    "install_type": "系统空间",
+    "changelog": "稳定版 V1.1.9",
+    "isdocker": "false"
   }
 }

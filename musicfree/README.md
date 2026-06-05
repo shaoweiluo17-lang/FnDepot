@@ -28,17 +28,6 @@
 - 支持链接导入各平台歌单
 - 定时同步，保持曲库最新
 
-## 🐳 部署
-
-Docker 一键部署：
-
-```bash
-docker pull ansgoo/music-free:latest
-```
-
-数据卷：
-- `/app/data` - 配置与数据库
-- `/app/music` - 音乐文件
 
 端口：`4533`
 
