@@ -35,7 +35,7 @@
     "distributor_url": "https://github.com/iranee/fnos-hermes-agent",
     "bug_report_url": "https://github.com/iranee/fnos-hermes-agent/issues",
     "download_url": "https://github.com/iranee/fnos-hermes-agent/releases/download/v0.18.0/fnos-hermes-agent_v0.18.0.fpk",
-    "size": "277",
+    "size": "0.3",
     "install_type": "系统空间",
     "changelog": "快速加载模型供应商库文件；优化首次绑定微信ClawBot流程",
     "isdocker": "false"
