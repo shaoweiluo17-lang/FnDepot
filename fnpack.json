@@ -26,16 +26,16 @@
     "isdocker": "false"
   },
   "hermes-agent": {
-    "display_name": "Hermes Agent",
+    "display_name": "飞牛 Hermes Agent",
     "desc": "Hermes Agent 开源 AI Agent，支持多平台消息网关、内置学习循环、技能系统和 MCP 扩展。通过飞牛应用中心安装，即开即用。\n\n核心能力：\n• 多模型支持：OpenAI、Anthropic、Kimi、MiniMax 等\n• 消息平台：微信ClawBot、QQ Bot、飞书、WhatsApp、Telegram 等\n• 定时任务：自然语言描述的自动化调度\n• 持久记忆：跨会话学习和技能进化\n• MCP 扩展：连接 GitHub 等外部工具\n\n免责声明：本应用仅作为服务集成工具，不对 Hermes Agent 软件本身的安全性、稳定性作任何保证。使用过程中产生的所有风险由用户自行承担。",
-    "labels": "AI,智能助手,消息网关,自动化",
+    "labels": "实用效率,AI,智能助手",
     "platform": "all",
     "version": "0.18.0",
     "distributor": "bbis",
     "distributor_url": "https://github.com/iranee/fnos-hermes-agent",
     "bug_report_url": "https://github.com/iranee/fnos-hermes-agent/issues",
     "download_url": "https://github.com/iranee/fnos-hermes-agent/releases/download/v0.18.0/fnos-hermes-agent_v0.18.0.fpk",
-    "size": "",
+    "size": "277",
     "install_type": "系统空间",
     "changelog": "快速加载模型供应商库文件；优化首次绑定微信ClawBot流程",
     "isdocker": "false"
