@@ -1,23 +1,23 @@
 {
   "musicfree": {
     "display_name": "MusicFree",
-    "desc": "集媒体库管理、元数据刮削与插件化扩展于一体的音乐服务器，All-in-One 无损音乐解决方案。\n- 在线搜索与下载：通过插件订阅注册表，便捷获取无损曲目\n- 媒体库管理：扫描入库、去重、在线播放；支持 WebDAV 媒体源\n- 元数据刮削：单曲/专辑/艺术家信息补全，封面与歌词多源匹配\n- 歌单同步：支持链接导入与定时同步各平台歌单\n- OpenSubsonic 兼容：支持音流、Supersonic、Symfonium 等客户端接入\n- 插件化扩展：搜索、刮削、同步能力均通过插件实现，可按需组合",
+    "desc": "集媒体库管理、元数据刮削与插件化扩展于一体的音乐服务器，All-in-One 无损音乐解决方案。\n- 在线搜索与下载：通过插件订阅注册表，便捷获取无损曲目\n- 媒体库管理：扫描入库、去重、在线播放；支持 WebDAV 媒体源\n- 元数据刮削：单曲/专辑/艺术家信息补全，封面与歌词多源匹配\n- 歌单同步：支持链接导入与定时同步各平台歌单\n- OpenSubsonic 兼容：支持音流、Supersonic、Symfonium 等客户端接入\n- 插件化扩展：搜索、刮削、同步能力均通过插件实现，可按需组合\nV1.2.0 更新特性\n- 音乐播放详情页：新增歌曲播放详情页面,点击播放器的专辑封面跳转详情页，支持查看当前播放曲目的详细信息与专辑/艺术家上下文，提升播放体验。\n-远程搜索支持乐库音乐：远程搜索插件结果页现已支持同时检索本地乐库，根据检索结果帮助用户决策是否下载。\n-心愿管理支持批量拒绝：管理后台 心愿管理 新增批量拒绝功能，管理员可一键勾选并拒绝多条待处理心愿，提升处理效率。\n-艺术家头像优化：插件排序逻辑优化，仅使用支持 GetArtistInfo 的插件匹配艺术家头像，提高头像匹配准确度与响应速度。\n-其他改进：\n-默认主题色更新为新版视觉规范\n-专辑卡片无封面占位背景与歌曲卡片风格统一，并随主题色联动\n-图片接口浏览器缓存时间优化，二次加载更快\n-页面宽度优化，提升大屏与小屏的显示效果\n-依赖升级：Go 模块与前端依赖集中更新，提升稳定性\n修复:\n-修复并发刮削时 SQLite 锁死问题：优化数据库事务与锁竞争，批量与并发刮削不再因 SQLite busy 中断\n-修复批量刮削 SQL 变量超限异常：大量文件同时创建刮削任务时不再报 SQL 变量数量错误\n-修复专辑卡片占位与主题不一致的显示问题",
     "labels": "音乐,媒体服务器,播放器,刮削",
     "platform": [
       "x86",
       "arm"
     ],
-    "version": "1.1.9",
+    "version": "1.2.0",
     "distributor": "ansgoo",
     "distributor_url": "https://github.com/ansgoo/music-free-site",
     "bug_report_url": "https://github.com/ansgoo/music-free-site/issues",
     "arch_diff": {
       "x86": {
-        "download_url": "https://github.com/AnsGoo/music-free-site/releases/download/V1.1.9/musicfree-amd64.fpk",
+        "download_url": "https://github.com/AnsGoo/music-free-site/releases/download/V1.2.0/musicfree-amd64-v1.2.0.fpk",
         "size": "13.2"
       },
       "arm": {
-        "download_url": "https://github.com/AnsGoo/music-free-site/releases/download/V1.1.9/musicfree-arm64.fpk",
+        "download_url": "https://github.com/AnsGoo/music-free-site/releases/download/V1.2.0/musicfree-arm64-v1.2.0.fpk",
         "size": "12.1"
       }
     },
@@ -30,12 +30,12 @@
     "desc": "Hermes Agent 开源 AI Agent，支持多平台消息网关、内置学习循环、技能系统和 MCP 扩展。通过飞牛应用中心安装，即开即用。\n\n核心能力：\n• 多模型支持：OpenAI、Anthropic、Kimi、MiniMax 等\n• 消息平台：微信ClawBot、QQ Bot、飞书、WhatsApp、Telegram 等\n• 定时任务：自然语言描述的自动化调度\n• 持久记忆：跨会话学习和技能进化\n• MCP 扩展：连接 GitHub 等外部工具\n\n免责声明：本应用仅作为服务集成工具，不对 Hermes Agent 软件本身的安全性、稳定性作任何保证。使用过程中产生的所有风险由用户自行承担。",
     "labels": "实用效率,AI,智能助手",
     "platform": "all",
-    "version": "0.18.0",
+    "version": "0.18.1-081",
     "distributor": "bbis",
     "distributor_url": "https://github.com/iranee/fnos-hermes-agent",
     "bug_report_url": "https://github.com/iranee/fnos-hermes-agent/issues",
-    "download_url": "https://github.com/iranee/fnos-hermes-agent/releases/download/v0.18.0/fnos-hermes-agent_v0.18.0.fpk",
-    "size": "0.3",
+    "download_url": "https://github.com/iranee/fnos-hermes-agent/releases/download/v0.18.1-081/fnos-hermes-agent_v0.18.1-081.fpk",
+    "size": "17.1",
     "install_type": "系统空间",
     "changelog": "快速加载模型供应商库文件；优化首次绑定微信ClawBot流程",
     "isdocker": "false"
