@@ -30,14 +30,14 @@
     "desc": "Hermes Agent 开源 AI Agent，支持多平台消息网关、内置学习循环、技能系统和 MCP 扩展。通过飞牛应用中心安装，即开即用。\n\n核心能力：\n• 多模型支持：OpenAI、Anthropic、Kimi、MiniMax 等\n• 消息平台：微信ClawBot、QQ Bot、飞书、WhatsApp、Telegram 等\n• 定时任务：自然语言描述的自动化调度\n• 持久记忆：跨会话学习和技能进化\n• MCP 扩展：连接 GitHub 等外部工具\n\n免责声明：本应用仅作为服务集成工具，不对 Hermes Agent 软件本身的安全性、稳定性作任何保证。使用过程中产生的所有风险由用户自行承担。",
     "labels": "实用效率,AI,智能助手",
     "platform": "all",
-    "version": "0.18.1-081",
+    "version": "0.19.0",
     "distributor": "bbis",
     "distributor_url": "https://github.com/iranee/fnos-hermes-agent",
     "bug_report_url": "https://github.com/iranee/fnos-hermes-agent/issues",
-    "download_url": "https://github.com/iranee/fnos-hermes-agent/releases/download/v0.18.1-081/fnos-hermes-agent_v0.18.1-081.fpk",
-    "size": "17.1",
+    "download_url": "https://github.com/iranee/fnos-hermes-agent/releases/download/0.19.0/fnos-hermes-agent_v0.19.0.fpk",
+    "size": "17.2",
     "install_type": "系统空间",
-    "changelog": "快速加载模型供应商库文件；优化首次绑定微信ClawBot流程",
+    "changelog": "V0.19.0\n更新\n-初始hermes agent版本升级为0.19.0\n修复首次安装出现的bug\n-提醒\n我们有另一个全新的版本，支持一键配置微信Claw以及各种bot，请关注：https://github.com/veenyi/fnos-hermes-agent\n本项目不定期更新，也可能只留存长期稳定版本",
     "isdocker": "false"
   }
 }
