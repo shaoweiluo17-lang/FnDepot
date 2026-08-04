@@ -7,22 +7,22 @@
       "x86",
       "arm"
     ],
-    "version": "1.2.1",
+    "version": "1.2.2",
     "distributor": "ansgoo",
     "distributor_url": "https://github.com/ansgoo/music-free-site",
     "bug_report_url": "https://github.com/ansgoo/music-free-site/issues",
     "arch_diff": {
       "x86": {
-        "download_url": "https://github.com/AnsGoo/music-free-site/releases/download/V1.2.1/musicfree-amd64-V1.2.1.fpk",
-        "size": "13.2"
+        "download_url": "https://github.com/AnsGoo/music-free-site/releases/download/V1.2.2/musicfree-1.2.2-amd64.fpk",
+        "size": "13.4"
       },
       "arm": {
-        "download_url": "https://github.com/AnsGoo/music-free-site/releases/download/V1.2.1/musicfree-arm64.-V1.2.1.fpk",
-        "size": "12.1"
+        "download_url": "https://github.com/AnsGoo/music-free-site/releases/download/V1.2.2/musicfree-1.2.2-arm64.fpk",
+        "size": "12.2"
       }
     },
     "install_type": "系统空间",
-    "changelog": "V1.2.1",
+    "changelog": "更新到V1.2.2",
     "isdocker": "false"
   },
   "hermes-agent": {
