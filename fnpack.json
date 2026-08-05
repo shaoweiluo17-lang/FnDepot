@@ -39,5 +39,31 @@
     "install_type": "系统空间",
     "changelog": "升级到0.19.0-50",
     "isdocker": "false"
+  },
+  "fnos-quark": {
+    "display_name": "飞牛夸克下载器",
+    "desc": "飞牛夸克下载器是一款面向飞牛 fnOS 的夸克网盘第三方工具，可在网页中浏览网盘，并将有权访问的文件下载到 NAS。需要 fnOS 1.1.8 或更高版本。\n\n主要功能：\n- 浏览夸克网盘文件夹，并按名称、大小或更新时间排序\n- 下载单个文件或整个文件夹，可选择是否保留网盘原始路径\n- 查看任务状态、文件进度、实时速度和预计剩余时间\n- 支持暂停、继续、断点续传、优先下载和取消下载\n- 支持 1-5 个文件并发下载，单文件可选 1/2/3/4/6 条 Range 分片连接\n- 支持同名文件策略、硬盘保留空间、总下载限速和下载时段\n- 访问令牌验证默认开启，可在可信内网关闭\n- 硬盘空间不足或 Cookie 失效时自动暂停，条件恢复后可继续\n- 提供任务通知、日志查看、异常筛选和脱敏诊断包\n\n本工具为非官方第三方工具，实际下载速度由夸克官方服务、账号权益和网络环境决定。\n\n飞牛社区介绍帖：https://club.fnnas.com/forum.php?mod=viewthread&tid=69444",
+    "labels": "实用效率,下载工具,网盘,夸克",
+    "platform": [
+      "x86",
+      "arm"
+    ],
+    "version": "0.6.2",
+    "distributor": "Cyberangel",
+    "distributor_url": "https://github.com/ElyDemiurge/fnOS-quark",
+    "bug_report_url": "https://github.com/ElyDemiurge/fnOS-quark/issues",
+    "arch_diff": {
+      "x86": {
+        "download_url": "https://github.com/ElyDemiurge/fnOS-quark/releases/download/v0.6.2/fnos-quark-0.6.2-x86_64.fpk",
+        "size": "3.24"
+      },
+      "arm": {
+        "download_url": "https://github.com/ElyDemiurge/fnOS-quark/releases/download/v0.6.2/fnos-quark-0.6.2-arm64.fpk",
+        "size": "2.95"
+      }
+    },
+    "install_type": "系统空间",
+    "changelog": "添加到FnDepot v0.6.2",
+    "isdocker": "false"
   }
 }
